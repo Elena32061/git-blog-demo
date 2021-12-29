@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Documents/GitHub/git-blog-demo/HelloScalaTest/src/test/scala/simpletest/HelloTests.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Documents/GitHub/git-blog-demo/HelloScalaTest/src/test/scala/simpletest/HelloTests.scala:5:26: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloTests extends FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Documents/GitHub/git-blog-demo/HelloScalaTest/src/test/scala/simpletest/HelloTests.scala:8:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("the name is set correctly in constructor") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Documents/GitHub/git-blog-demo/HelloScalaTest/src/test/scala/simpletest/HelloTests.scala:9:21: not found: type Person[0m
+[0m[[0m[31merror[0m] [0m[0m        val p = new Person("Barney Rubble")[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Documents/GitHub/git-blog-demo/HelloScalaTest/src/test/scala/simpletest/HelloTests.scala:14:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("a Person's name can be changed") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Documents/GitHub/git-blog-demo/HelloScalaTest/src/test/scala/simpletest/HelloTests.scala:15:21: not found: type Person[0m
+[0m[[0m[31merror[0m] [0m[0m        val p = new Person("Chad Johnson")[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

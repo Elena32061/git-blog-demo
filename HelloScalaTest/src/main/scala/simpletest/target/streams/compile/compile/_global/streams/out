@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Documents/GitHub/git-blog-demo/HelloScalaTest/src/main/scala/simpletest/Hello.scala:4:14: not found: type Person[0m
+[0m[[0m[31merror[0m] [0m[0m	val p = new Person("Alvin Alexander")[0m
+[0m[[0m[31merror[0m] [0m[0m	            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
