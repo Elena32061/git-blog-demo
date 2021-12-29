@@ -1,0 +1,15 @@
+[yixiaoling@localhost chipyard]$ source env.sh
+[yixiaoling@localhost chipyard]$ cd sims/verilator/
+make CONFIG=RoccRocketConfig debug
+
+cp simulator-chipyard-RoccRocketConfig-debug ~/Downloads/rocc-test/simulator-chipyard-RoccRocketConfig-debug 
+
+./simulator-chipyard-RoccRocketConfig-debug -v wave.vcd rocc-test.riscv
+
+gtkwave wave.vcd 
+
+cp -rf src/main/scala/* ~/Downloads/rocket-src-git/
+
+cp -rf ~/Downloads/rocket-src-git/* /home/yixiaoling/Downloads/chipyard/generators/rocket-chip/src/main/scala/
+
+cp /home/yixiaoling/Downloads/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RoccRocketConfig/chipyard.TestHarness.RoccRocketConfig.top.v /tmp/rocket_verilog/chipyard.TestHarness.RoccRocketConfig.top.v 
